@@ -1,5 +1,48 @@
 /* Style for tribue page */ 
+html {
+    color: gray;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    background-color: antiquewhite;
+}
+
 h1 {
     font-size: 50px;
-    color: blue;
+    color: black;
+    text-align: center;
+}   
+
+h2 {
+    font-size: 25px;
+    font-weight: 100;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+#image {
+    height: 400px;
+    width: 300px;
+    margin: 0px 5px 5px 0px;
+    padding-right: 20px;
+    float: left;
+    vertical-align: middle;
+
+}
+
+.tribute-info {
+    display: inline;
+    text-align: left;
+}
+
+.milestone {
+    margin-left: 15px;
+}
+
+#tribute-link {
+    margin-left: 5px;
 }
