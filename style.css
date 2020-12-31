@@ -38,6 +38,7 @@ h2 {
 .tribute-info {
     display: inline;
     text-align: left;
+    font-size: 110%;
 }
 
 .milestone {
